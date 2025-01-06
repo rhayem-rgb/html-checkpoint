@@ -1,0 +1,53 @@
+body{
+    font-family: "roboto", sans-serif;
+}
+a,li{
+display: inline;
+text-decoration: none;
+color: black;
+margin-right: 10px;
+}audio {
+    width: 100%;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background-color: #F4F4F4; /* Not all browsers support this */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  /* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #282c34;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Audio Player Container */
+  .audio-player {
+    text-align: center;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    max-width: 300px;
+    width: 100%;
+  }
+  
+  /* Heading Styling */
+  h1 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #f0f0f0;
+  }
+  
+  /* Audio Element Styling */
+  audio {
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    background-color: #333;
+  }
+  
